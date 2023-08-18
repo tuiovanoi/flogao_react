@@ -9,7 +9,9 @@ export function Footer() {
       <a href="https://facebook.com" target="_blank">
         <img src={Face} alt="Facebook" />
       </a>
-      <img src={Insta} alt="Instagram" />
+      <a href="https://instagram.com/negode034?igshid=MmU2YjMzNjRlOQ==" target="_blank">
+        <img src={Insta} alt="Instagram" />
+      </a>
       <img src={Linkedin} alt="Linkedin" />
     </S.Footer>
   )

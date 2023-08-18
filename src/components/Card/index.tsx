@@ -1,17 +1,17 @@
 import * as S from "./styles";
 export interface ICard {
   data: string
-  titulo: string
-  mensagem: string
+  cidade: string
+  tipodecarga: string
 }
-export const Card = ({ data, titulo, mensagem }: ICard) => {
+export const Card = ({ data, cidade, tipodecarga }: ICard) => {
   return (
     <S.Aside>
       <h3>
         <strong>Data: </strong> {data}
       </h3>
-      <h4>Título: {titulo}</h4>
-      <p>Mensagem: {mensagem}</p>
+      <h4>cidade: {cidade}</h4>
+      <p>tipo de carga: {tipodecarga}</p>
     </S.Aside>
   );
 };
