@@ -1,7 +1,7 @@
 import {
     IAuthContextData, IAuthProvider,
     IResponseUser, IUser
-  } from '../interfaces/user.interface'
+  } from '../interfaces/user.interfaces'
   import React, { createContext, useState, useCallback } from 'react'
   import api from '../services/api'
   import { apiUser } from '../services/data'

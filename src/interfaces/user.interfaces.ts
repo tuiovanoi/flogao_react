@@ -22,7 +22,7 @@ export interface IAuthContextData {
     user: {
         id:number
         email: string
-        name;
+        name: string;
     }
 }
 export interface IAuthProvider {

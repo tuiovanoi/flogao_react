@@ -6,7 +6,7 @@ import { MdEmail } from "react-icons/md";
 import { toast } from "react-toastify";
 
 import * as S from "./styles";
-import { IErrorResponse, IUser } from "../../interfaces/user.interface";
+import { IErrorResponse, IUser } from "../../interfaces/user.interfaces";
 import { AxiosError } from "axios";
 import { apiUser } from "../../services/data";
 

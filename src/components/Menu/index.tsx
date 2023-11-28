@@ -6,7 +6,7 @@ import { toast } from "react-toastify";
 
 import * as S from "./styles";
 import { useAuth } from "../../hooks/authHook";
-import { IErrorResponse, IUser } from "../../interfaces/user.interface";
+import { IErrorResponse, IUser } from "../../interfaces/user.interfaces";
 import { AxiosError } from "axios";
 
 export function Login() {
